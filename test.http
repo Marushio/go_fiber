@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/v1/createUser
+Content-Type: application/json
+
+{
+    "name":"Marcio2",
+    "email":"marcio2@teste.com"
+}
+
+###
+GET http://localhost:3000/api/v1/users
